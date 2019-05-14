@@ -7,7 +7,7 @@ const app = express();
 app.use('/index', indexRouter);
 
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('祝你考试顺利！'));
 app.get('/about', (req, res) => res.send('关于'));
 
 
